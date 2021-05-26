@@ -22,7 +22,7 @@ What good does it do to have a linked open university platform?
       -productive and research projects
       -real-time streaming data (daily water and energy consumption)
 #### In order to illustrate the architecture of the platform, a proof of concept about linked courses publication follows:
--Three components were developed:
+Three components were developed:
 
   1- **rawdata_api** collects data from the university repositories and databases and arranges it into JSON files, one for each entity. In this case, data about or related to university courses such as:
            
