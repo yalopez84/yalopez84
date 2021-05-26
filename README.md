@@ -29,9 +29,9 @@ Three components were developed:
            courses, academic terms, assessment methods, buildings, departments, faculties, languages, materials, 
            rooms, students, subjects, teachers, teaching methods, universities 
            
- 2-**coursesld_server** transforms raw data in JSON files(**rawdata_api** outputs) to courses files in RDF serializations such as JSON LD, TTL, N3,CSV. It is a customized interface for publishing linked courses according to the client apps needs.
+ 2-**coursesld_server** transforms raw data in JSON files (**rawdata_api** outputs) to courses files in RDF serializations such as JSON LD, TTL, N3,CSV. It is a customized interface for publishing linked courses according to the client apps needs.
  
- 3-**coursesld_client** allows testing the **coursesld_server** interface. It is a proof of concept where different technologies allow to automatize the client-server communication such as Hydra/Tree vocabularies, the metadata vocabulary DCAT 2, etc.
+ 3-**coursesld_client** allows testing the **coursesld_server** interface. It is a proof of concept where different technologies allow automatizing the client-server communication such as Hydra/Tree vocabularies, the metadata vocabulary DCAT 2, etc.
 
 
 
