@@ -42,12 +42,17 @@ What good does it do to have a linked open university platform?
 -Three components were developed:
 
   1- **rawdata_api** collects data from the university repositories and databases and arranges it into JSON files, one for each entity. In this case, data about or related to university courses such as:
-           
-           courses, academic terms, assessment methods, buildings, departments, faculties, languages, materials, 
-           rooms, students, subjects, teachers, teaching methods, universities 
-           
+                        
+       courses, academic terms, assessment methods, buildings, departments, faculties, languages, materials, 
+       rooms, students, subjects, teachers, teaching methods, universities 
+  
+![imagen](https://user-images.githubusercontent.com/57901401/120075876-0b65f200-c071-11eb-8626-9e72aa5057e2.png)
+              
+         
  2-**coursesld_server** transforms raw data in JSON files (**rawdata_api** outputs) to courses files in RDF serializations such as JSON LD, TTL, N3,CSV. It is a customized interface for publishing linked courses according to the client apps needs.
  
+ ![imagen](https://user-images.githubusercontent.com/57901401/120075979-86c7a380-c071-11eb-84cf-04a08a4e3584.png)
+
  3-**coursesld_client** allows testing the **coursesld_server** interface. It is a proof of concept where different technologies allow automatizing the client-server communication such as Hydra/Tree vocabularies, the metadata vocabulary DCAT 2, etc.
 
 
