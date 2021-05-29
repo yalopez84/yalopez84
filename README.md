@@ -31,13 +31,17 @@ What good does it do to have a linked open university platform?
       -exploiting datasets by developing applications and services on top, and, providing optimization and quality.
 
 #### Universities have to face issues related to this process
-      -Lack of a unified, well-accepted vocabulary that satisfies all universities' requirements.
-      -The need of coping with the heterogeneity of datasets.
-      -The high cost of the existing SPARQL endpoint interfaces.
-      -Performance shortcomings of federated queries over current SPARQL endpoints.
-      -Incomplete data.
+      1-Lack of a unified, well-accepted vocabulary that satisfies all universities' requirements.
+      2-The need of coping with the heterogeneity of datasets.
+      3-The high cost of the existing SPARQL endpoint interfaces.
+      4-Performance shortcomings of federated queries over current SPARQL endpoints.
+      5-Incomplete data.
       
-#### In order to illustrate the architecture of the platform, a proof of concept about linked courses publication follows 
+#### To cover previous issues in my Ph.D. research I 've separeted them into two works:
+      1-Creating and exploiting linked datases (issues from 1 to 4)
+      2-Knowledge graphs completion (issue 5)
+      
+#### The first work is a proof of concept about linked courses publication and consumtion 
 -This implementation intends to show an early application of the platform by easing data consumption to course recommender applications.
 -Three components were developed:
 
