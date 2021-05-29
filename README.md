@@ -41,7 +41,7 @@ What good does it do to have a linked open university platform?
       1-Creating and exploiting linked datases (issues from 1 to 4)
       2-Knowledge graphs completion (issue 5)
       
-#### The first work is a proof of concept about linked courses publication and consumtion 
+#### The first work is a proof of concept about linked courses publication and consumption 
 -This implementation intends to show an early application of the platform by easing data consumption to course recommender applications.
 -Three components were developed:
 
