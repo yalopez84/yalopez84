@@ -21,6 +21,22 @@ What good does it do to have a linked open university platform?
       -scientific production (articles, papers, Ph.D. Thesis, MSc Thesis...)
       -productive and research projects
       -real-time streaming data (daily water and energy consumption)
+      
+#### The stages of the process of generating linked datasets
+      -raw data collection,
+      -defining the vocabulary model based on reusing existing ontologies and extend them when it is needed,
+      -extracting and generating RDF datasets according to the defined vocabulary,
+      -achieving interlinking among datasets internally and externally, 
+      -storing the outcome datasets and exposing them via SPARQL endpoints, 
+      -exploiting datasets by developing applications and services on top, and, providing optimization and quality.
+
+#### Universities have to face issues related to this process
+      -Lack of a unified, well-accepted vocabulary that satisfies all universities' requirements.
+      -The need of coping with the heterogeneity of datasets.
+      -The high cost of the existing SPARQL endpoint interfaces.
+      -Performance shortcomings of federated queries over current SPARQL endpoints.
+      -Incomplete data.
+      
 #### In order to illustrate the architecture of the platform, a proof of concept about linked courses publication follows:
 Three components were developed:
 
