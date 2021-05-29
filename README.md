@@ -53,7 +53,10 @@ What good does it do to have a linked open university platform?
  
  ![imagen](https://user-images.githubusercontent.com/57901401/120075979-86c7a380-c071-11eb-84cf-04a08a4e3584.png)
 
- 3-**coursesld_client** allows testing the **coursesld_server** interface. It is a proof of concept where different technologies allow automatizing the client-server communication such as Hydra/Tree vocabularies, the metadata vocabulary DCAT 2, etc.
+ 3-**coursesld_client** allows testing the **coursesld_server** interface. It is a proof of concept where different technologies allow automatizing the client-server communication such as Hydra/Tree vocabularies, the metadata vocabulary DCAT 2, etc. A client app can request course fragments by the start date and the subject to multiple coursesld_server interfaces.
+ 
+ ![imagen](https://user-images.githubusercontent.com/57901401/120078418-80d7bf80-c07d-11eb-9a83-247367bf071e.png)
+
 
 
 
