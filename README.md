@@ -37,7 +37,7 @@ What good does it do to have a linked open university platform?
       -Performance shortcomings of federated queries over current SPARQL endpoints.
       -Incomplete data.
       
-#### In order to illustrate the architecture of the platform, a proof of concept about linked courses publication follows:
+#### In order to illustrate the architecture of the platform, a proof of concept about linked courses publication follows (Easing data consumption to course recommender applications):
 Three components were developed:
 
   1- **rawdata_api** collects data from the university repositories and databases and arranges it into JSON files, one for each entity. In this case, data about or related to university courses such as:
