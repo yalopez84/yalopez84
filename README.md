@@ -38,7 +38,7 @@ What good does it do to have a linked open university platform?
       5-Incomplete data.
       
 #### To cover previous issues in my Ph.D. research I 've separeted them into two works:
-      1-Creating and exploiting linked datases (issues from 1 to 4)
+      1-Creating and exploiting linked datasets (issues from 1 to 4)
       2-Knowledge graphs completion (issue 5)
       
 #### The first work is a proof of concept about linked courses publication and consumption 
