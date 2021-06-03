@@ -30,7 +30,9 @@ What good does it do to have a linked open university platform?
       -storing the outcome datasets and exposing them via SPARQL endpoints, 
       -exploiting datasets by developing applications and services on top,
       -providing optimization and quality to output datasets.
-             (Nahhas, S., Bamasag, O., Khemakhem, M., Bajnaid, N.: Added values of linked data in education: A survey and roadmap. Computers 7(3), 45 (2018))
+             Nahhas, S., Bamasag, O., Khemakhem, M., Bajnaid, N.: 
+             Added values of linked data in education: A survey and roadmap. 
+             Computers 7(3), 45 (2018)
       
 
 #### Universities have to face issues related to this process
