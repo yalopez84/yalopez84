@@ -30,6 +30,7 @@ What good does it do to have a linked open university platform?
       -storing the outcome datasets and exposing them via SPARQL endpoints, 
       -exploiting datasets by developing applications and services on top,
       -providing optimization and quality to output datasets.
+      
 
 #### Universities have to face issues related to this process
       1-Lack of a unified, well-accepted vocabulary that satisfies all universities' requirements.
