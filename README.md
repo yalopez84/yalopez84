@@ -10,6 +10,7 @@ What good does it do to have a linked open university platform?
       -Building effective, integrated, and innovative applications over its datasets,
       -Revealing the contribution and achievements as LOD which is nowadays a mean to measure the university reputation.
       -University staff improvement.
+      
              Nahhas, S., Bamasag, O., Khemakhem, M., Bajnaid, N.: 
              Added values of linked data in education: A survey and roadmap. 
              Computers 7(3), 45 (2018)
@@ -35,6 +36,7 @@ What good does it do to have a linked open university platform?
       -storing the outcome datasets and exposing them via SPARQL endpoints, 
       -exploiting datasets by developing applications and services on top,
       -providing optimization and quality to output datasets.
+      
              Nahhas, S., Bamasag, O., Khemakhem, M., Bajnaid, N.: 
              Added values of linked data in education: A survey and roadmap. 
              Computers 7(3), 45 (2018)
@@ -46,6 +48,7 @@ What good does it do to have a linked open university platform?
       3-The high cost of the existing SPARQL endpoint interfaces.
       4-Performance shortcomings of federated queries over current SPARQL endpoints.
       5-Incomplete data.
+      
            -Nahhas, S., Bamasag, O., Khemakhem, M., Bajnaid, N.: 
             Added values of linked data in education: A survey and roadmap.
             Computers 7(3), 45 (2018)
