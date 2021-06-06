@@ -7,6 +7,7 @@ What good does it do to have a linked open university platform?
       -Representation and integration of data,
       -Reuse of data,
       -Linking data with related data out of the university,
+      -data level links provide an integration independent from application,
       -Building effective, integrated, and innovative applications over its datasets,
       -Revealing the contribution and achievements as LOD which is nowadays a mean to measure the university reputation.
       -University staff improvement.
