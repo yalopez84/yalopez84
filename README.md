@@ -98,7 +98,11 @@ What good does it do to have a linked open university platform?
 #### knowledge graph are incomplete by nature
       Some of them are generated in automatic way
       They may have missing edges, they may not include all the fact 
-      They work under open world assumption (OWA). Absence of a fact does not imply fact is false. Simply, we do not know the fact. 
+      They work under open world assumption (OWA). Absence of a fact does not imply fact is false. Simply, 
+      we do not know the fact. 
+      ![image](https://user-images.githubusercontent.com/57901401/121057851-b707f400-c78d-11eb-9553-fe389ae1a33f.png)
+
+
 
 
 
