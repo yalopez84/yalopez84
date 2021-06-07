@@ -87,7 +87,18 @@ What good does it do to have a linked open university platform?
  
  ![imagen](https://user-images.githubusercontent.com/57901401/120078418-80d7bf80-c07d-11eb-9a83-247367bf071e.png)
 
+#### The second work is about knowledge graph completion
+-We are trying to develop an algorithm for knowledge graph completion based on Bidirectional Encoder Representation from Transformers (BERT)
 
+#### When have another important examples of Knowledge graph
+       Yago
+       Wikidata
+       DBpedia
+       GDELT
+#### knowledge graph are incomplete by nature
+      Some of them are generated in automatic way
+      They may have missing edges, they may not include all the fact 
+      They work under open world assumption (OWA). Absence of a fact does not imply fact is false. Simply, we do not know the fact. 
 
 
 
