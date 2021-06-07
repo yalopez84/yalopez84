@@ -61,7 +61,7 @@ What good does it do to have a linked open university platform?
       1-Creating and exploiting linked datasets (issues from 1 to 4)
       2-Knowledge graphs completion (issue 5)
       
-#### The first work is a proof of concept about linked courses publication and consumption 
+## The first work is a proof of concept about linked courses publication and consumption 
 -This implementation intends to show an early application of the platform by easing data consumption to course recommender applications.
 -Three components were developed:
 
@@ -87,10 +87,10 @@ What good does it do to have a linked open university platform?
  
  ![imagen](https://user-images.githubusercontent.com/57901401/120078418-80d7bf80-c07d-11eb-9a83-247367bf071e.png)
 
-#### The second work is about knowledge graph completion
+## The second work is about knowledge graph completion
 -We are trying to develop an algorithm for knowledge graph completion based on Bidirectional Encoder Representation from Transformers (BERT)
 
-#### When have another important examples of Knowledge graph
+#### We have important examples of Knowledge graph
        Yago
        Wikidata
        DBpedia
