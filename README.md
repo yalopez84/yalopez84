@@ -95,26 +95,64 @@ What good does it do to have a linked open university platform?
        Wikidata
        DBpedia
        GDELT
+       
 #### knowledge graph are incomplete by nature
       Some of them are generated in automatic way
       They may have missing edges, they may not include all the fact 
       They work under open world assumption (OWA). Absence of a fact does not imply fact is false. Simply, 
       we do not know the fact. 
+      
 #### Machine Learning on knowledge graphs (Practical tasks)
-   -Link prediction/Triple Classification
+   -Link prediction/Triple Classification (More famous one)
             
-            **Knowledge graph completion**
+            -Knowledge graph completion
             -Content recommendation
             -Question answering
   -Collective node classification/Link-Based Clustering
           
             -Customer segmentation
-  
+  -Entity matching 
             
+            -Duplicate detection
+            -Inventory items deduplication
+            
+#### Link prediction/Triple Classification 
+-Link prediction(We emphasize here)
+            -Learning to rank problem
+            -Information retrieval metrics
+            -No ground truth negatives  in test set required
+-Triple Classification
+            -Binary Classification task
+            -Binary classification metrics
+            -Test set  requires positives and ground truth negatives
 
+#### From feature engineering to graph representation learning
+-feature engineering (Machine Learning)=> graph representation learning 
+-graph representation learning (learning representation of nodes and edges automatically) (Deep Learning)
+-We could use traditional deep learning tools
+            -CNNs are designed for grids(e.g images)
+            -RNNs/word2vec for sequences (e.g.text)
+-But graphs are more complex:
+=>We need ad-hoc models!
+=>Graph representation learning
+Learning representations of nodes and edges. We turn nodes and edges into vector representations
+-Once we have vector representations we can carry out tasks as link prediction
+-Handling vector representations is much better than handling nodes and edges. Vector can be processed by neural network architectures
 
+#### Graph representation learning
+Different solutions have been presented:
+-Node Representation/Graph features based Methods (DeepWalk, node2vec)
+-Graph Neural Networks (GNNs)
+       -GCNs (similar to Knoledge Graph Embeddings), Graph Attention Networks
+-Knowledge graph embeddings (KGE) (We focus on this method)
+            TransE, DistMult, ComplEx, ConvE, ComplEx-N3, RotatE
 
-
+#### Knowledge Graph Embeddings (KGE)
+-Automatic, supervised learning of embeddings, i.e. projections of entities and relations into a continuos low-dimensional space.
+-These embeddings normally have no more than a few hundred components
+-These competing models try to achieve the same goal: locate the embeddings in a position able to maximize the chance of predicting 
+missing links (unseen facts in the graph), catching symetry, asymmetry, inversion, composition relations. Also hierarchies, type constraints,
+transitivity, homophily, long-range dependencies.
 
 
 
