@@ -162,4 +162,50 @@ transitivity, homophily, long-range dependencies.
             -Optimization algorithm
             -Negatives generation strategy
 
-
+#### Translation-based Scoring Functions
+            -TransE=||(Es + Rp)-Eo||n    //vectors addition
+            -RotatE=-||EsoRp-Eo||n
+#### Factorization-based Scoring Functions
+            -Rescal:low-rank factorization with tensor product
+            frescal=e^T*Wr*Eo
+            -DistMult: bilinear diagonal model. Dot product (the problem here is with asymetric relations due to dot product is symetric)
+            fdistmul=<Rp,Es, Eo>
+            -ComplEx: complex embeddings(Hermitian dot product)
+               i.e extends DistMult with dot product in C
+             fcomplEx=Re(<rp,es,eo>)
+#### Deeper Scoring Functions   //if you want to use other strategy
+            -ConvE: reshaping +convolution
+            -ConvKB: convolutions and dot product  (computationally expensive)
+#### Other recent models
+            -HolE
+            -SimplE
+            -QuatE
+            -MurP
+            -... Really there are a lot of scoring functions and scoring functions determine the method, so what we have to do is text with a method and see if it solves 
+              our problem
+#### Loss function  -Here, there are also a lot of methods
+            -Pairwise Margin-Based Hinge Loss  It is possible to assign a bigger score to positive triple than negative triple by a margin ganma during the training stage
+            -Negative Log-Likelihood/Cross Entropy
+            -Binary Cross-Entropy, convE uses this loss function
+            -Self adversarial, it introduces weight for the negative sample
+            ...
+            Many more: Multiclass Negative Log-likelihood, absolute Margin, etc
+            //Tendency of papers is to present loss functions in addition to scoring functions
+#### along loss function it is important to speak about regularizers
+            -We have multiple ways to use regularizations
+            -L1, L2
+            -L3 (model complEx), leader model in this moment
+            -Dropout (ConvE)
+  Knowledge graph embedigns are into to select a scoring function, a loss function, a regularizer, etc. The idea is to combine part of the original models
+#### Negatives Generation 
+            -Due to we want the model to classify positive and negative facts, we have to train it with negative facts. Let us remember a knowledge graph only have truth fact but it also has missing facts.
+            -To generate negative facts, we start from a locally closed world assumption, where we consider a triple is complete and changing part of that triple we create negative facts, example we have entities in the graphs {Mike, Liverpool, AcmeInc, George, LiverpoolFC}, relations {bornIn, friendWith} and the triple (Mike bornIn Liverpool).
+            We generate as negative triples:
+            -Mike bornIn AcmeInc
+            -Mike bornIn LiverpoolFC
+            -George bornIn Liverpool
+            -AcmeInc bornIn Liverpool
+            It is true that some negative are more negative than other. Here we can use a clever strategy to generate negative, but experiments have shown up this quite straghtforward tecnique works very well.
+          
+            
+           
