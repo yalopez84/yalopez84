@@ -156,10 +156,10 @@ missing links (unseen facts in the graph), catching symetry, asymmetry, inversio
 transitivity, homophily, long-range dependencies.
 
 #### Anatomy of a knowledge Graph Embedding Model
--Knowledge graph (KG)G
--Scoring function for a triple f(t)
--Loss function L
--Optimization algorithm
--Negatives generation strategy
+            -Knowledge graph (KG)G
+            -Scoring function for a triple f(t)
+            -Loss function L
+            -Optimization algorithm
+            -Negatives generation strategy
 
 
