@@ -88,7 +88,8 @@ What good does it do to have a linked open university platform?
  ![imagen](https://user-images.githubusercontent.com/57901401/120078418-80d7bf80-c07d-11eb-9a83-247367bf071e.png)
 
 ## The second work is about knowledge graph completion
--We are trying to develop an algorithm for knowledge graph completion based on Bidirectional Encoder Representation from Transformers (BERT)
+-We are trying to develop an algorithm for knowledge graph completion based on Bidirectional Encoder Representation from Transformers (BERT) in the 
+linked university context
 
 #### We have important examples of Knowledge graph
        Yago
@@ -154,5 +155,11 @@ Different solutions have been presented:
 missing links (unseen facts in the graph), catching symetry, asymmetry, inversion, composition relations. Also hierarchies, type constraints,
 transitivity, homophily, long-range dependencies.
 
+#### Anatomy of a knowledge Graph Embedding Model
+-Knowledge graph (KG)G
+-Scoring function for a triple f(t)
+-Loss function L
+-Optimization algorithm
+-Negatives generation strategy
 
 
