@@ -93,7 +93,7 @@ linked university context
 
 #### We have important examples of Knowledge graph
        Yago
-       Wikidata
+       Wikidata (FreeBase included)
        DBpedia
        GDELT
        
@@ -206,6 +206,33 @@ transitivity, homophily, long-range dependencies.
             -George bornIn Liverpool
             -AcmeInc bornIn Liverpool
             It is true that some negative are more negative than other. Here we can use a clever strategy to generate negative, but experiments have shown up this quite straghtforward tecnique works very well.
-          
+#### Strategies of training with Synthetic Negatives
+            -Uniform sampling: generate all possible synthetic negatives and sample negatives for each positive 
+            -Complete set: no sampling. Use all possible synthetic negatives for each positive t    
+           -1-n scoring: batches of (s,p,*) or (*,p,o) labeled as positives (if included in training KG) or negatives (if not in training KG)
+           Let us remember this aspect is peculiar in Knowledge Graph Embeddings because in other Machine Learning tasks you have positive and negative examples.
+#### Training Procedure and Optimizer
+            -the goal is minimizing the loss function
+            -Optimizer learns optimal paramters(e.g embeddings). Off-the -shelf Stocastic Gradiant Descent variants (best results are obtained with AdaGrad, Adam)
+                        -back propagation
+                         -stocastic gradiant descent
+            -Reciprocal triples 
+                 -Injection of reciprocal triples in training set.e.g <Alice childOf Jack> <Jack childOf Alice> 
+            *Previous aspects are important to stady models, to compare them and also to select frameworks to work.
+#### Training ideas
+            -As other Machine Learning models, here the aspects that we must have into account:
+                        -hyperparameters
+                        -tunning
+                        -model selection
+                        -size of the grid
+                        -random search (models are selected in a random way)
+#### How to messure the model success (we keep talking about link prediction)
+            -The idea is to evaluate the probability the model gives to truth fact against to the probability the model gives to negative facts.
+            -We use metrics that come from information retrieval:
+                        -Mean rank (MR)
+                        -Mean Reciprocal Rank (MRR)
+                        -Hits@N
+                 
+            
             
            
