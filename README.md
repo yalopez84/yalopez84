@@ -265,10 +265,37 @@ transitivity, homophily, long-range dependencies.
          -Why not to use semantic rules to generate good negatives. The answer is that maybe that is a good idea but different models generate negatives as they were explian to           save time. 
 #### Applications
          -Fharmaceutical industry (first of all, they say they got a knowledge graph about genes and other topics by integrating different datasets related to that. One they
-          got the knowledge graph, they created embeddings in order to predict reations between nodes)
+          got the knowledge graph, they created embeddings in order to predict reations between nodes and know what genes are related to a target drug. So the task is to create the knowledge graph and then to predict relations, by the way, in this context there are million of nodes and links)
          -Human Resources
-         -Products
+         -Products (product recomendations, relations between clients and customers)
          -Food and Beverages
+#### Software ecosystem around knowledge graphs embeddings
+         -OpenKE
+         -AmpliGraph
+         -PytorchBigGraph
+         -Pykg2vec
+         -LibKGE
+      Comparison by taking into account features, scalability, sota reproduced, software development.
+      Features (models, pre-training models, other features)
+      If we see the frameworks looking which of them allows to carry out models like  TransE, DistMult, ComplEx, TransH, TransD, TransR, RESCAL, HolE, SimplE, ConvKB, etc.
+      Most common models are TransE, DistMult, they are implemented in almost all frameworks.
+#### Pre-trained models
+      -There are framework that offer embedding pre-trained based on common KG as Wikidata, freebase, benchmark datasets. For example PyTorchBigGraph has a full pre-trained over wikidata. Let us remember, training a model requires time and skills.
+#### Other features to assess KGE frameworks
+            OpenKE, c++ implementation
+            AmpliGraph, benchmarking AID and preprocessing
+                        -formats RDF, csv, ntriples
+                        -knowledge discovery API
+                        -Visualization
+                        -Model selection API
+                        -Colab tutorial
+           Pytorch Big Graoh
+                        -high level operation
+                        -scalability (particioning experimental GPU)
+
+       
+
+         
 
          
 
