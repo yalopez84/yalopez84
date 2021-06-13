@@ -292,11 +292,21 @@ transitivity, homophily, long-range dependencies.
            Pytorch Big Graoh
                         -high level operation
                         -scalability (particioning experimental GPU)
-
+                        
+#### Scalability
+           -When we need to train the model we need a scalable framework
+           -All framework developed are based on Pytorch or TensorFlow. Most of them are based on Pytorch. OpenKE and PyKG2vec are based on both Pytorch and TensorFlow.
+           -All framework suppor large KG, for example AmpliGraph supports graphs of 10^8 edges and 4*10^7 nodes.
        
-
+#### Which library should I use?
+            -take into account your expirience
+            -the time you have to learn
+            -The task to be solved
+            -Frameworks the ibrary supports Pytorch, TensorFlow
+            -accuracy, maturity
          
-
+#### Hands on session
+2:44
          
 
             
