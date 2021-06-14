@@ -322,6 +322,7 @@ La idea por detras de word2vec es entrenar el algoritmo a partir de ir viendo si
 -Partimos de saber en la practica como se obtienen los KGE, se tienen tecnicas que encuentran los embedings solo a partir del conocimiento del grafo como TransE, etc. Aqui la idea es obtener vectores para nodos y relaciones de acuerdo a evaluar con operaciones entre vectores e ir mejorando esos vectores. Una manera de verlo claro seria tener un vector inicial para cada nodo y relacion del grafo, ir pasando por el algoritmo todas las tripletas, cada vez que pase 
 
 -en la generacion de negatives fact aunque se tienen los enfoques de OWA y CWA, se dice que CWA trae desventajas, en el caso de OWA se tienen las estrategias de generar negativos por cada positivo (cambiando cabeza o cola o relacion) y otro enfoque es generar negativos teniendo en cuenta que los nuevos valores esten presentes en otras tripletas en el grafo. Aqui me pudiera plantear avanzar en la generacion de negatives fact desde la estrategia de OWA donde se evaluen semanticamente los nuevos valores pudiendo generar buenos negativos.
+-En articulo de revision KGE 1, ademas de mostrar los metodos tradicionales que los distinquen en dos tipos: basados en distancia y basados en semantica, presentan una sesion de incorporar informacion adicional (entity types, relation paths, textual descriptions, as well as logical rules). Los tipos de entidades se han usado tanto para evitar en el entranamiento tripletas que no cumplan las condiciones como en la generacion de tripletas negativas.
 
 #### Hands on session
 2:44
