@@ -329,6 +329,11 @@ Se tiene un trabajo citado como 30 donde se utilizan las descripciones textuales
 Se explica un algoritmo que evidencia muchos avances en el uso de informacion textual.
 En cuanto a las reglas logicas, se han creado muchos algoritmos que extraen reglas logicas del grafo. Se ven avances de este metodo recientemente.
 Hay trabajos que vinculan reglas con embeddings de palabras, lo que las reglas se han modelado como un posprocesamiento. Otro trabajo ya logra vincularlo en un mismo paso.
+
+Completamiento de grafos
+KG embedding, which aims to embed entities and relations into continuous vector spaces
+The investigation on incorporating additional information has just started. Advanced techniques which perform KG embedding with other information besides facts such as entity types, relation paths, textual descriptions, and logical rules. We focused specifically on the incorporation of four types of additional information, i.e., entity types, relation paths, textual descriptions, and logical rules. 
+
 #### Hands on session
 2:44
          
