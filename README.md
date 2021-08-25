@@ -62,12 +62,14 @@ What good does it do to have a linked open university platform?
       2-Knowledge graphs completion (issue 5)
       
 ### RDB to ontologies mappings
-     Para la transformacion hacia RDF surgio inicialmente el estandar r2rml http://www.w3.org/TR/r2rml/ 
-     Para la transformación de otros formatos como csv, xml, json surgió el estandar RML (Lenguaje genérico para el mapeo RDF) https://rml.io/.
-     Para escribir en el formato RML, yarrml es una forma amigable para el usuario de escribir los mapping RML https://rml.io/yarrrml/
-     En yarrml se tiene un editor Matey que facilita el trabajo https://rml.io/yarrrml/matey/ asi como tutoriales  https://rml.io/yarrrml/tutorial/getting-started/
-     En esta plataforma el procedimiento para obtener los datos enlazados sera llevar los datos de todos los formatos a json, casi todos los datos residen en bases de datos
-     relacionales. Luego se llevan con yarrml de json a RDF.
+     -Para la transformacion hacia RDF surgió el estandar r2rml http://www.w3.org/TR/r2rml/. Dentro de las herramientas para trabajar con r2rml se tienen
+      Morph (https://github.com/nkons/r2rml-parser https://github.com/oeg-upm/morph-rdb), d2rq es otra herramienta de transformacion con su lenguaje d2rq
+     -Para la transformación de otros formatos como csv, xml, json surgió el estandar RML (Lenguaje genérico para el mapeo RDF) https://rml.io/.
+     -Para escribir en el formato RML, yarrml es una forma amigable para el usuario de escribir los mapping RML https://rml.io/yarrrml/
+     -En yarrml se tiene un editor Matey que facilita el trabajo https://rml.io/yarrrml/matey/ asi como tutoriales https://rml.io/yarrrml/tutorial/getting-started/
+     -En nuestra plataforma de datos enlazados el procedimiento para obtener los datos enlazados sera llevar los datos de todos los formatos a json,
+     casi todos los datos residen en bases de datos relacionales. Luego se llevan con yarrml de json a RDF. 
+     La especificacion de yarrml puede verse en https://rml.io/yarrrml/spec/
      
       
 ## The first work is a proof of concept about linked courses publication and consumption 
